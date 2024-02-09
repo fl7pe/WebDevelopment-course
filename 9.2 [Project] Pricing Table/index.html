@@ -10,40 +10,51 @@
     />
     <style>
       body {
-        font-family: "Sono", sans-serif;
-        background-color: rgb(36, 94, 146);
-        
+       font-family: "Sono", sans-serif;
+       background-image:url(./assets/images/pexels-pixabay-355465.jpg);
+       background-size: cover;
+       color: aliceblue;
+
       }
 
       .pricing-container {
         display: flex;
+        justify-content: center;
         gap: 2rem;
         align-items: center;
         height: 100vh;
         
-        
-      }
-
-      .pricing-plan > * {
-        list-style: none;
       }
 
       .pricing-plan {
-        background-color: rgb(235, 232, 232);
-        max-width: 400px;
+        background-color: rgba(194, 192, 192, 0.4);
+        width: 400px;
         flex: 1;
-        border-radius: 5px;
+        flex-shrink: 0;
+        border-radius: 10px;
         padding: 20px;
         text-align: center;
       }
 
+      .pricing-plan > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+      }
+      
+      .pricing-plan > ul > * {
+        margin: 10px 10px 0px 10px;
+      }
+
       .plan-title {
-        font-weight: bold;
         font-size: 2rem;
       }
 
       .plan-price {
-        font-weight: bold;
         font-size: 3rem;
       }
 
@@ -53,14 +64,14 @@
 
       .button-6 {
         align-items: center;
-        background-color: #86c950;
+        background-color: #2da1be;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: .25rem;
         box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
         box-sizing: border-box;
-        color: rgba(0, 0, 0, 0.85);
+        color: aliceblue;
         cursor: pointer;
-        display: inline-flex;
+        display: inline-flex;   
         font-size: 16px;
         font-weight: 600;
         justify-content: center;
@@ -96,14 +107,23 @@
         color: rgba(0, 0, 0, 0.65);
         transform: translateY(0);
       }
+
+      .plan-price {
+        margin-top: 10px;
+      }
+
+      span {
+        color: rgba(0, 255, 0, 0.8);
+      }
       
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
 
         .pricing-container {
-        flex-direction: column;
         height: 100%;
+        flex-direction: column;
+        
         }
       }
     </style>
@@ -111,9 +131,9 @@
 
   <body>
       <div class="pricing-container">
-      <div class="pricing-plan">
+        <div class="pricing-plan one">
         <div class="plan-title">Basic</div>
-        <div class="plan-price">$9.99/month</div>
+        <div class="plan-price"><span>$9.99</span>/month</div>
         <ul class="plan-features">
           <li>✅ 10GB Storage</li>
           <li>✅ 1 User</li>
@@ -121,9 +141,9 @@
         </ul>
         <button class="button-6" role="button">Sign Up</button>
       </div>
-      <div class="pricing-plan">
+      <div class="pricing-plan two">
         <div class="plan-title">Standard</div>
-        <div class="plan-price">$19.99/month</div>
+        <div class="plan-price"><span>$19.99</span>/month</div>
         <ul class="plan-features">
           <li>✅ 50GB Storage</li>
           <li>✅ 5 Users</li>
@@ -131,9 +151,9 @@
         </ul>
         <button class="button-6" role="button">Sign Up</button>
       </div>
-      <div class="pricing-plan">
+      <div class="pricing-plan three">
         <div class="plan-title">Premium</div>
-        <div class="plan-price">$49.99/month</div>
+        <div class="plan-price"><span>$49.99</span>/month</div>
         <ul class="plan-features">
           <li>✅ 100GB Storage</li>
           <li>✅ 10 Users</li>
