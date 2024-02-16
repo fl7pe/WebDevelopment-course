@@ -49,7 +49,6 @@ body {
 
 span {
     color: #C5E898;
-    font-family: cu;
 }
 
 h1 {
@@ -98,22 +97,162 @@ p {
     width: 25%;
     height: 300px;
     min-width: 282.750px;
+    border: #29ADB2 solid 2px;
+    border-top-right-radius: 10%;
+    display: grid;
+    grid-template-rows: 100px auto;
+    position: relative;
     background-color: #29ADB2;
+}
+
+#pCard1 {
+    display: relative;
+    top: 40px;
+
+}
+
+#card1 {
+    background-color: #e6e6e6;
+}
+
+#imgCard1 {
+    position: relative;
+    width:120px;
+    height: 120px;
+    top: 40px; 
+    left: 15px; 
+    background-color: #F3F3F3;
+    z-index: 1;
+    border-radius: 50%;
+    border: #29ADB2 solid 1px;
+    
+}
+
+#imgCard1 img {
+    position: relative;
+    left: 11px;
+    top: 3px;
+    border-radius: 50%;
+    float: left;
+}
+
+#imgCard1 p {
+    display: inline;
+    position: relative;
+    left: 98px;
+    bottom: 82px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#card1 p {
+    padding-top: 60px;
+    padding-inline: 10%;
 }
 
 .elemento2 {
     width: 25%;
     height: 300px;
-    background-color: #29ADB2;
     min-width: 282.750px;
+    border: #29ADB2 solid 2px;
+    border-top-right-radius: 10%;
+    display: grid;
+    grid-template-rows: 100px auto;
+    position: relative;
+    background-color: #29ADB2;
 }
+
+#card2 {
+    background-color: #F3F3F3;
+}
+
+#imgCard2 {
+    position: relative;
+    width:120px;
+    height: 120px;
+    top: 40px; 
+    left: 15px; 
+    background-color: #F3F3F3;
+    z-index: 1;
+    border-radius: 50%;
+    border: #29ADB2 solid 1px;
+}
+
+#imgCard2 img {
+    position: relative;
+    left: 11px;
+    top: 3px;
+    border-radius: 50%;
+}
+
+#imgCard2 p {
+    display: inline;
+    position: relative;
+    left: 98px;
+    bottom: 82px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#card2 p {
+    padding-top: 60px;
+    padding-inline: 10%;
+}
+
 
 .elemento3 {
     width: 25%;
     height: 300px;
-    background-color: #29ADB2;
     min-width: 282.750px;
+    border: #29ADB2 solid 2px;
+    border-top-right-radius: 10%;
+    display: grid;
+    grid-template-rows: 100px auto;
+    position: relative;
+    background-color: #F3F3F3;
 }
+
+#card3 {
+    background-color: #F3F3F3;
+    border-top: #29ADB2 solid 1px;
+}
+
+#imgCard3 {
+    position: relative;
+    width:120px;
+    height: 120px;
+    top: 40px; 
+    left: 15px; 
+    background-color: #e6e6e6;
+    z-index: 1;
+    border-radius: 50%;
+    border: #29ADB2 solid 1px;
+}
+
+#imgCard3 img {
+    position: relative;
+    left: 11px;
+    top: 3px;
+    border-radius: 50%;
+}
+
+#imgCard3 p {
+    display: inline;
+    position: relative;
+    left: 98px;
+    bottom: 82px;
+    color:#29ADB2;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#card3 p {
+    padding-top: 60px;
+    padding-inline: 10%;
+}
+
 
 .second-container img{
     padding-top: 2%;
@@ -127,6 +266,7 @@ p {
 
 hr {
     margin-inline: 15%;
+    margin-bottom: 10%;
 }
 
 h2 {
@@ -141,11 +281,12 @@ h3 {
     font-weight: 610;
     color: #08BBD2;
     font-size: 2.5rem;
+   
 }
 
 #call-to-action {
     margin-inline: 20%; 
-    margin-block: 5%; 
+    margin-bottom: 5%; 
     text-align: center;
     
 }
