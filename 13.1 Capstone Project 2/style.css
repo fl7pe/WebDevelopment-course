@@ -16,7 +16,7 @@ body {
 }
 
 .third-container {
-    background-color: #0765AD;
+    background-color: #0078D4;
 }
 
 .container {
@@ -155,8 +155,10 @@ p {
     width: 25%;
     height: 300px;
     min-width: 282.750px;
-    border: #29ADB2 solid 2px;
-    border-top-right-radius: 10%;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 80px;
     display: grid;
     grid-template-rows: 100px auto;
     position: relative;
@@ -164,7 +166,9 @@ p {
 }
 
 #card2 {
-    background-color: #F3F3F3;
+    background-color: #e6e6e6;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 75px;
 }
 
 #imgCard2 {
@@ -206,13 +210,14 @@ p {
     width: 25%;
     height: 300px;
     min-width: 282.750px;
-    border: #29ADB2 solid 2px;
     border-top-right-radius: 10%;
     display: grid;
     grid-template-rows: 100px auto;
     position: relative;
-    background-color: #F3F3F3;
+    background-color: #29ADB2;
 }
+
+
 
 #card3 {
     background-color: #F3F3F3;
@@ -225,7 +230,7 @@ p {
     height: 120px;
     top: 40px; 
     left: 15px; 
-    background-color: #e6e6e6;
+    background-color: #F3F3F3;
     z-index: 1;
     border-radius: 50%;
     border: #29ADB2 solid 1px;
@@ -243,7 +248,7 @@ p {
     position: relative;
     left: 98px;
     bottom: 82px;
-    color:#29ADB2;
+    color:white;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -279,8 +284,8 @@ h3 {
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: 610;
-    color: #08BBD2;
-    font-size: 2.5rem;
+    color: #0078D4;
+    font-size: 3rem;
    
 }
 
