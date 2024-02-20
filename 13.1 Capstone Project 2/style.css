@@ -33,7 +33,6 @@ body {
     grid-template-rows: 1fr 95px;
     align-items: center;
     padding-top: 50px;
-    
 }
 
 .stack {
@@ -152,7 +151,7 @@ h1 {
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 11pt;
+    font-size: 13px;
     
 }
 
@@ -213,9 +212,10 @@ h1 {
     text-align: left ;
     font-size: 10pt;
     font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
 }
 
 
@@ -284,9 +284,6 @@ h1 {
    
 }
 
-.tgrid {
-
-}
 
   .blink {
     animation: blink 1s steps(1, end) infinite;
@@ -418,12 +415,10 @@ footer > p {
 
 @media (max-width: 1130px) {
 
-    .first-container {
-        background: linear-gradient(300deg, #08BBD2, #0765AD, #06538E);
-        background-size: 180% 180%;
-        animation: gradient-animation 15s ease infinite;
-    }
 
+    .fgrid {
+        grid-template-rows: 1fr 160px;
+    }
 
     .stack {
         grid-column: span 2;
