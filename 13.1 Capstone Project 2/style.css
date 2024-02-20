@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
+    
 }
 
 .first-container {
@@ -41,9 +42,9 @@ body {
     font-size: 2rem;
     align-self: start;
     margin: 0%;
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
+    font-family: "Merriweather", serif;
     font-weight: 300;
+    font-style: normal;
     
 }
 
@@ -56,9 +57,9 @@ h1 {
     font-size: 4rem;
     align-self: end;
     margin: 0%;
-    font-family: "Junge", cursive;
+    font-family: "Italianno", cursive;
     font-weight: 400;
-     font-style: normal;
+    font-style: normal;
     
       
       
@@ -70,26 +71,17 @@ h1 {
     padding-bottom: 0%;
 }
 
-.sgrid {
-    text-align: center;
-    height: auto;
-    padding: 0% 10% 5% 10%;
-}
+
 
 #pAboutMe {
     text-align: center;
     margin-top: 0%;
+    padding: 0% 20% 5% 20%;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
 }
-
-p {
-    margin: 0%;
-    text-align: left;
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-weight: 500;
-}
-
-
 
 .flex-container {
     display: flex;
@@ -157,6 +149,10 @@ p {
     text-underline-offset: 0.25em;
     align-self: flex-start;
     padding-inline: 10%;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 11pt;
     
 }
 
@@ -214,6 +210,12 @@ p {
     padding-top: 60px;
     padding-inline: 10%;
     margin-top: 7%;
+    text-align: left ;
+    font-size: 10pt;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
@@ -268,6 +270,11 @@ p {
 
 .ComingSoonP {
     padding-inline: 10%;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    margin-top: 0%;
 }
 
 
@@ -305,16 +312,17 @@ hr {
 }
 
 h2 {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 300;
+    font-style: normal;   
     margin-top: 0%;
 }
 
 h3 {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-weight: 610;
+    font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
     color: #0078D4;
     font-size: 3rem;
    
@@ -324,7 +332,7 @@ h3 {
     margin-inline: 20%; 
     margin-bottom: 80px; 
     text-align: center;
-    
+     
 }
 
 #button-container {
@@ -340,7 +348,7 @@ button {
     align-items: center;
     text-decoration: none;
     border: none;
-    padding: 12px 40px;
+    padding: 12px 20px;
     font-size: 16px;
     color: #fff;
     border-radius: 5px;
@@ -348,6 +356,7 @@ button {
     cursor: pointer;
     outline: none;
     transition: 0.2s all;
+    
     
 
 }
@@ -364,10 +373,12 @@ button:hover {
 button span {
     color: white;
     padding-inline: 15px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 15px;
     letter-spacing: 1px;
-    font-weight: bold;
+    
 
 }
 
@@ -385,8 +396,11 @@ footer > p {
     margin: 0%;
     padding-block: 1%;
     color: aliceblue;
-    font-size: 1.2rem;
-    font-family: serif;
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+
     
 }
 
