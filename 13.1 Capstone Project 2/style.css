@@ -29,9 +29,9 @@ body {
 .fgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 95px;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 50px;
     
 }
 
@@ -83,12 +83,13 @@ h1 {
 
 p {
     margin: 0%;
-    margin-top: 7%;
     text-align: left;
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: 500;
 }
+
+
 
 .flex-container {
     display: flex;
@@ -103,20 +104,22 @@ p {
     height: 420px;
     border-top-right-radius: 60px;
     border-top-left-radius: 20px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 85px;
     display: grid;
     grid-template-rows: 100px auto;
     position: relative;
     background-color: #29ADB2;
+    justify-items: center;
+
 }
 
 #card1 {
     background-color: #e6e6e6;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 80px;
     display: grid;
-    grid-template-rows: 230px auto
+    grid-template-rows: 215px auto
 }
 
 #imgCard1 {
@@ -124,7 +127,6 @@ p {
     width:120px;
     height: 120px;
     top: 40px; 
-    left: 15px; 
     background-color: #F3F3F3;
     z-index: 1;
     border-radius: 50%;
@@ -134,8 +136,7 @@ p {
 
 #imgCard1 img {
     position: relative;
-    right: 5px;
-    top: 3px;
+    top: 18px;
 }
 
 #imgCard1 p {
@@ -146,12 +147,7 @@ p {
     color: white;
     font-weight: 600;
     letter-spacing: 2px;
-}
-
-#card1 p {
-    padding-top: 60px;
-    padding-inline: 10%;
-    height: 100px;
+   
 }
 
 .icon-link {
@@ -169,18 +165,22 @@ p {
     height: 420px;
     border-top-right-radius: 60px;
     border-top-left-radius: 20px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 85px;
     display: grid;
     grid-template-rows: 100px auto;
     position: relative;
     background-color: #29ADB2;
+    justify-items: center;
+
 }
 
 #card2 {
     background-color: #e6e6e6;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 80px;
+    display: grid;
+    grid-template-rows: 215px auto;
 }
 
 #imgCard2 {
@@ -188,7 +188,6 @@ p {
     width:120px;
     height: 120px;
     top: 40px; 
-    left: 15px; 
     background-color: #F3F3F3;
     z-index: 1;
     border-radius: 50%;
@@ -198,8 +197,7 @@ p {
 
 #imgCard2 img {
     position: relative;
-    right: 5px;
-    top: 3px;
+    top: 17px;
 }
 
 #imgCard2 p {
@@ -212,9 +210,10 @@ p {
     letter-spacing: 2px;
 }
 
-#card2 p {
+.cardP {
     padding-top: 60px;
     padding-inline: 10%;
+    margin-top: 7%;
 }
 
 
@@ -223,18 +222,21 @@ p {
     height: 420px;
     border-top-right-radius: 60px;
     border-top-left-radius: 20px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 85px;
     display: grid;
     grid-template-rows: 100px auto;
     position: relative;
     background-color: #29ADB2;
+    justify-items: center;
 }
 
 #card3 {
     background-color: #e6e6e6;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 80px;
+    display: grid;
+    grid-template-rows: 215px auto
 }
 
 #imgCard3 {
@@ -242,7 +244,6 @@ p {
     width:120px;
     height: 120px;
     top: 40px; 
-    left: 15px; 
     background-color: #F3F3F3;
     z-index: 1;
     border-radius: 50%;
@@ -252,8 +253,7 @@ p {
 
 #imgCard3 img {
     position: relative;
-    right: 5px;
-    top: 3px;
+    top: 13px;
 }
 
 #imgCard3 p {
@@ -266,15 +266,14 @@ p {
     letter-spacing: 2px;
 }
 
-#card3 p {
-    padding-top: 60px;
+.ComingSoonP {
     padding-inline: 10%;
 }
 
 
 .second-container img{
     padding-top: 2%;
-    /* Faz a imagem flutuar para o lado direito */
+    padding-bottom: 1%;
    
 }
 
@@ -282,15 +281,34 @@ p {
 
 }
 
+  .blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
 hr {
     margin-inline: 15%;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
+    margin-top: 0%;
 }
 
 h2 {
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: 300;
+    margin-top: 0%;
 }
 
 h3 {
@@ -304,7 +322,7 @@ h3 {
 
 #call-to-action {
     margin-inline: 20%; 
-    margin-bottom: 5%; 
+    margin-bottom: 80px; 
     text-align: center;
     
 }
@@ -312,13 +330,12 @@ h3 {
 #button-container {
     display: flex;
     justify-content: center;
-    padding-bottom: 5%;
 }
 
 
 button {
     display: flex;
-    margin-bottom: 4%;
+    margin-bottom: 80px;
     background-color: #0078D4;
     align-items: center;
     text-decoration: none;
