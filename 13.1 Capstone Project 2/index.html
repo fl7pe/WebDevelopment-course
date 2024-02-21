@@ -6,93 +6,87 @@
     <title>Felipe Bezerra</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Merriweather:wght@300&
-family=Montserrat:wght@100..900&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Merriweather:wght@300&
+    family=Montserrat:wght@100..900&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
+
     <div class="first-container">
-        <div class="container fgrid">
+        <div class="container grid">
             <h1>Hi!<br>I'm <span id="spanName">Felipe</span></h1>
             <p class="stack">Full stack web developer</p>
-            <img class="webDev" src="./assets/images/webDevPng.png" height="250" alt="web developer working">
+            <img id="webDevImg" src="./assets/images/webDevPng.png" height="250" alt="web developer working">
         </div>
     </div>
+
     <div class="second-container">
         <img src="./assets/images/profile-photo.png" height="250" alt="profile photo">
-        
-            
-                <p id="pAboutMe">Coordinator and Software Developer at Academia Europea, passionate about technology and leadership.
+            <p id="pAboutMe">Coordinator and Software Developer at Academia Europea, passionate about technology and leadership.
             Currently exploring the world of web development, learning HTML 5, CSS 3, Bootstrap, JavaScript ES6, DOM, Git, Node.js, APIs, PostgreSQL and a lot more!
             With a team of nearly 600 teachers, I am constantly enhancing my skills in software development, as well as in other crucial areas such as problem-solving, management, and communication.
             </p>
-        
-        <div class="flex-container">
-            <div class="elemento1">
-                <div id="imgCard1"><img src="./assets/images/htmlLogo.png" height="80px"  alt="">
-                    <p>Resume</p>
-                </div>
-                
-                <div id="card1">
-                    <p class="cardP">As the final project of the HTML section in my web development course, I have created a website for my resume using HTML exclusively. 
-                        Take a look at my professional experience, courses, skills, and languages through my website.
-                    </p>
-                         <a href="https://fl7pe.github.io/resume-html/index.html" class="icon-link">
-                            View my resume
-                            <img src="./assets/images/chevron-right.svg" alt="chevron-right">
-                          </a>
-                </div>
-                
-            </div>
-            <div class="elemento2">
-                <div id="imgCard2"><img src="./assets/images/cssLogo.png" height="82px" alt="">
-                    <p>Resume</p>
-                </div>
-                
-                <div id="card2">
-                    <p class="cardP">In addition to this personal website, I've completed many other projects that encompass Flexbox, Grid
-                        , responsiveness, visual enhancements and Bootstrap. Explore a project created using Bootstrap.
-                    </p>
-                         <a href="https://fl7pe.github.io/TinDog-Bootstrap/" class="icon-link">
-                            View my project
-                            <img src="./assets/images/chevron-right.svg" alt="chevron-right">
-                          </a>
-                </div>
-                
-            </div>
-            <div class="elemento3">
-                <div id="imgCard3"><img src="./assets/images/jsLogo.png" height="90px"  alt="">
-                    <p>Resume</p>
-                </div>
-                
-                <div id="card3">
-                    <p class="cardP">In upcoming projects, I'll be incorporating JavaScript into the websites, adding dynamic functionality and interactivity.
-                         Stay tuned for updates! Once a project is completed, you'll see a bellow to explore.
-                    </p>
+                <div id="flex-container">
 
-                    <p class="ComingSoonP">Coming Soon... <span class="blink">|</span></p>
-                       
-                    
+                    <div class="elements">
+                        <div class="imgContainer"><img id="imgCard1" src="./assets/images/htmlLogo.png" height="80px"  alt=""></div>
+                            <div class="cards">
+                                <p class="cardsP">As the final project of the HTML section in my web development course, I have created a website for my resume using HTML exclusively. 
+                                    Take a look at my professional experience, courses, skills, and languages through my website.
+                                </p>
+                                <a href="https://fl7pe.github.io/resume-html/index.html" class="icon-link">
+                                    View my resume
+                                    <img src="./assets/images/chevron-right.svg" alt="chevron-right">
+                                </a>
+                            </div>
+                    </div>
+
+                    <div class="elements">
+                        <div class="imgContainer"><img id="imgCard2" src="./assets/images/cssLogo.png" height="82px" alt=""></div>
+                            <div class="cards">
+                                <p class="cardsP">In addition to this personal website, I've completed many other projects that encompass Flexbox, Grid
+                                    , responsiveness, visual enhancements and Bootstrap. Explore a project created using Bootstrap.
+                                </p>
+                                    <a href="https://fl7pe.github.io/TinDog-Bootstrap/" class="icon-link">
+                                        View my project
+                                        <img src="./assets/images/chevron-right.svg" alt="chevron-right">
+                                    </a>
+                            </div>
+                    </div>
+
+                    <div class="elements">
+                        <div class="imgContainer"><img id="imgCard3" src="./assets/images/jsLogo.png" height="90px"  alt=""></div>
+                            <div class="cards">
+                                <p class="cardsP">In upcoming projects, I'll be incorporating JavaScript into the websites, adding dynamic functionality and interactivity.
+                                    Stay tuned for updates! Once a project is completed, you'll see a bellow to explore.
+                                </p>
+                                    <p class="ComingSoonP">Coming Soon... <span class="blink">|</span></p>
+                            </div>
+                    </div>
+
                 </div>
-                
-            </div>
+
+                <hr>
+
+                <h2>Are you also interested in web development?</h2>
+
+                    <h3>Get In Touch</h3>
+
+                        <h2 id="call-to-action">Let's share our professional experiences, insights, and networks.
+                        Click on the button below to reach my Linkedin profile.
+                        </h2>
+
+                            <div id="button-container">
+                                <button>
+                                    <a id="button-text" href="https://www.linkedin.com/in/felipe-sousa-bezerra/" target="_blank" rel="noopener noreferrer"></a>
+                                    <svg id="buttonSvg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="40px" height="40px"><path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"/><path d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z" opacity=".05"/><path d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z" opacity=".07"/><path fill="#fff" d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"/></svg>
+                                    Let's connect!
+                                    </a>
+                                </button>
+                            </div>
         </div>
 
-        <hr>
-
-        <h2>Are you also interested in web development?</h2>
-            <h3>Get In Touch</h3>
-             <h2 id="call-to-action">Let's share our professional experiences, insights, and networks.
-             Click on the button below to reach my Linkedin profile.
-             </h2>
-        <div id="button-container">
-                <button>
-                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="30px" height="30px"><path fill="#0078d4" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5	V37z"/><path d="M30,37V26.901c0-1.689-0.819-2.698-2.192-2.698c-0.815,0-1.414,0.459-1.779,1.364	c-0.017,0.064-0.041,0.325-0.031,1.114L26,37h-7V18h7v1.061C27.022,18.356,28.275,18,29.738,18c4.547,0,7.261,3.093,7.261,8.274	L37,37H30z M11,37V18h3.457C12.454,18,11,16.528,11,14.499C11,12.472,12.478,11,14.514,11c2.012,0,3.445,1.431,3.486,3.479	C18,16.523,16.521,18,14.485,18H18v19H11z" opacity=".05"/><path d="M30.5,36.5v-9.599c0-1.973-1.031-3.198-2.692-3.198c-1.295,0-1.935,0.912-2.243,1.677	c-0.082,0.199-0.071,0.989-0.067,1.326L25.5,36.5h-6v-18h6v1.638c0.795-0.823,2.075-1.638,4.238-1.638	c4.233,0,6.761,2.906,6.761,7.774L36.5,36.5H30.5z M11.5,36.5v-18h6v18H11.5z M14.457,17.5c-1.713,0-2.957-1.262-2.957-3.001	c0-1.738,1.268-2.999,3.014-2.999c1.724,0,2.951,1.229,2.986,2.989c0,1.749-1.268,3.011-3.015,3.011H14.457z" opacity=".07"/><path fill="#fff" d="M12,19h5v17h-5V19z M14.485,17h-0.028C12.965,17,12,15.888,12,14.499C12,13.08,12.995,12,14.514,12	c1.521,0,2.458,1.08,2.486,2.499C17,15.887,16.035,17,14.485,17z M36,36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698	c-1.501,0-2.313,1.012-2.707,1.99C24.957,25.543,25,26.511,25,27v9h-5V19h5v2.616C25.721,20.5,26.85,19,29.738,19	c3.578,0,6.261,2.25,6.261,7.274L36,36L36,36z"/></svg>
-                    <span>Let's connect!</span>
-                </button>
-        </div>
-    </div>
     <div class="third-container">
         <div class="container tgrid">
             <footer>
@@ -100,5 +94,6 @@ family=Montserrat:wght@100..900&family=Roboto:wght@300&display=swap" rel="styles
             </footer>
         </div>
     </div>
+
 </body>
 </html>
