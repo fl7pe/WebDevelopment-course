@@ -1,0 +1,16 @@
+{
+  "name": "qr-image-project",
+  "version": "1.0.0",
+  "description": "app to generate a Qr image for an url",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Bezerra",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "qr-image": "^3.2.0"
+  }
+}
