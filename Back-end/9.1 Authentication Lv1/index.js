@@ -8,10 +8,10 @@ const port = 3000;
 const saltRounds = 10;
 
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: "secrets",
-  password: "webdb1",
+  user: "",
+  host: "",
+  database: "",
+  password: "",
   port: 5433,
 });
 db.connect();
