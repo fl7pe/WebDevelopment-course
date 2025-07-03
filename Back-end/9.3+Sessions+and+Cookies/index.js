@@ -27,10 +27,10 @@ app.use(passport.session());
 
 
 const db = new pg.Client({
-  user: "postgres",
-  host: "localhost",
-  database: "secrets",
-  password: "webdb1",
+  user: "",
+  host: "",
+  database: "",
+  password: "",
   port: 5433,
 });
 db.connect();
